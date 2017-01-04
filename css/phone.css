@@ -1,0 +1,53 @@
+/*
+author: Chris
+date: 2016.11.20
+*/
+@media screen and (max-width: 480px) {
+
+    .maxWidth { width: 100%; }
+    .top-bar-inner { width: 94%;margin: auto }
+    .top-bar-left { width: 120px; }
+    .top-bar-search { display: none; }
+    .nav-logo { width: 25%;float: none; }
+    .nav-logo img { width: 100%; }
+    .nav-inner { width: 94%; }
+    .clear { clear: both; }
+    .nav-menu { width: 100%;float: none;display: none; }
+    .nav-inner { position: relative;padding: 10px 0; }
+    .nav-console { display: block;font-size: 20px;position: absolute;right: 0;top: 26px; }
+    .nav-menu ul { width: 273px;margin: 0 auto; }
+    .nav-menu ul li { margin: 0; }
+    .nav-menu ul li a.nav-homePage { padding: 0 28px; }
+
+    .banner { height: 166px; }
+    .banner-con { width: 600px;padding: 50px 0 465px 50px;color: #fff; }
+    .banner-con h1 { height: 50px;line-height: 48px;font-size: 20px;font-weight: normal; }
+    .banner-con p { display: none; }
+    .banner-con a { color: #fff;padding: 5px 10px;border-radius: 5px;background-color: #c52e2e;line-height: 39px; }
+    .arrow { top: 44%;width: 26px;height: 26px;line-height: 24px; }
+    .arrow-left { left: 10px; }
+    .arrow-right { right: 10px; }
+    .banner-pages { font-size: 0;margin: 0; }
+    .banner-pages a { width: 12px;height: 12px;font-size: 0; }
+    .banner-pages a span { width: 10px;height: 10px; }
+
+    .mod { padding: 0; }
+    .mod-title { font-size: 26px; }
+    .mod-list { margin: 0; }
+
+    .features-list { padding: 10px 0; }
+    .features-list dt { margin-right: 10px; }
+
+    .payment-list { margin: 20px auto;width: 290px; }
+
+    .type-list { margin: 20px auto;float: none;width: 292px;padding: 10px; }
+
+    .link-lists { margin: 0 auto;overflow: hidden;width: 316px }
+    .link-inner { padding: 0; }
+    .link-list { margin: 0; }
+    .link-list ul li,.link-list h3 { text-align: center; }
+
+    .footer-inner { padding: 15px 0; }
+    .footer-left { float: none;margin: 10px 0 0;text-align: center;line-height: 18px; }
+    .footer-right { float: none;text-align: center;margin: 0; }
+}
